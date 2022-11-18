@@ -140,7 +140,11 @@
                 </nav>
 
                 <!-- header with sreach -->
+                
                 <div class="header-with-sreach">
+                    <label for="mobile-sreach-checkbox" class="header__mobile-sreach ">
+                        <i class="header__mobile-sreach-icon fa-solid fa-magnifying-glass"></i>
+                    </label>
                     <div class="header__logo header__logo-link hide-on-tablet">
                         <a href="index.html">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -154,7 +158,9 @@
 
 
                     </div>
+                    <input type="checkbox" hidden id="mobile-sreach-checkbox" class="header__sreach-checkbox"> 
                     <div class="header__sreach">
+                       
                         <div class="header__sreach-input-wrap">
                             <input type="text" class="header__sreach-input" placeholder="Tìm kiếm sản phẩm">
                             <!-- sreach history -->
@@ -405,8 +411,22 @@
                     </div>
                 </div>
             </div>
-
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-link--active">
+                    <a href="" class="header__sort-link ">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
         </header>
+      
         <div class="app__container">
             <div class="grid wide">
                 <div class="grid__row app-content">
