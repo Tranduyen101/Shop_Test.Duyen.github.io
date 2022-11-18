@@ -1,5 +1,5 @@
 .header {
-    height: 120px;
+    height: var( --header-height);
     background-image: linear-gradient(0, #fe6433, #f7442e);
   
 }
