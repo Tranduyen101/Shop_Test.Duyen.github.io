@@ -545,7 +545,7 @@
 .header__cart {
     width: 150px;
     text-align: center;
-
+    margin-right: -12px;
 }
 
 .header__cart-icon {
@@ -948,7 +948,9 @@
     height: 38px;
     padding: 0 16px;
 }
-
+.header__sort-border{
+    border-bottom: 2px solid;
+}
 .header_sreach-history-item:hover {
     background-color: #fafafa;
 }
@@ -1037,7 +1039,7 @@
 }
 /* mobile category */
 .mobile-category{
-
+    display: none;
 }
 .mobile-category__list{
     display: flex;
@@ -1045,6 +1047,7 @@
     max-width: 100%;
     overflow-x: auto; 
     align-items: center;
+    overflow-y: hidden;
 }
 .mobile-category__list::-webkit-scrollbar{
     display: none;
